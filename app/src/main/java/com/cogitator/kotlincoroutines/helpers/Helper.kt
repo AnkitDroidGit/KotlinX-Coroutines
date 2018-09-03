@@ -9,7 +9,6 @@ import android.support.v4.app.FragmentActivity
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentTransaction
 import android.view.View
-import com.cogitator.kotlincoroutines.R
 import kotlinx.coroutines.experimental.delay
 import java.io.IOException
 
@@ -51,8 +50,8 @@ fun FragmentActivity.replaceFragment(frameId: Int, fragment: Fragment, tag: Stri
 fun Fragment.goTo(tag: String) = activity?.supportFragmentManager?.popBackStack(tag, 0)
 
 fun FragmentActivity.getFragment(@IdRes id: Int): Fragment? = supportFragmentManager.findFragmentById(id)
-fun FragmentActivity.getRootView() = (this.getFragment(R.id.fragment_placeholder)?.view
-        ?: this.window.decorView)!!
+//fun FragmentActivity.getRootView() = (this.getFragment(R.id.fragment_placeholder)?.view
+//        ?: this.window.decorView)!!
 
 
 suspend fun <T> retry(
