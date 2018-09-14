@@ -13,7 +13,7 @@ import kotlinx.coroutines.experimental.delay
 import java.io.IOException
 
 /**
- * @author Ankit Kumar (ankit.kumar@capitalplatforms.net) on 23/08/2018
+ * @author Ankit Kumar on 23/08/2018
  */
 
 

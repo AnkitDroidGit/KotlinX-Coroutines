@@ -4,7 +4,7 @@ import kotlinx.coroutines.experimental.delay
 import kotlinx.coroutines.experimental.launch
 
 /**
- * @author ankitkumar (ankit.kumar@capitalplatforms.net) on 03/09/2018
+ * @author Ankit Kumar on 03/09/2018
  */
 
 fun launchCotrouine() {
